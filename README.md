@@ -11,17 +11,17 @@ Currently, up to version 1.6.2.4 is supported. Newer versions of the game may or
 ## Building
 0. Purchase UFO 50. The devs deserve the money.
 1. Copy your UFO 50 game files into the ufo50 folder.
-2. Run build_windows.bat if you're using Windows, build_unix if you're not.
+2. Run ```build_windows.bat``` if you're using Windows, ```build_linux``` if using linux, or ```sh build_macos.sh``` if using Mac.
 3. Copy com.unofficial.ufo50.apk to your device.
 4. Enable installing from unofficial sources on your device, if needed. This will vary from device to device.
 5. Install com.unofficial.ufo50.apk with your file manager of choice. You can delete it after it's installed.
 6. Play! You can press Start, go to Settings > Video Settings, and set SCALE to FILL to fill the entire screen.
 
 ## Save Management
-Before you can manage save files, make sure you have enabled Developer Options on your device and allowed USB or Wi-Fi debugging. Make sure you have run UFO 50 at least once before you attempt to upload your saves.
-To backup your save, run backup_saves_windows.bat if you're using Windows or backup_saves_unix if you're not.
+Before you can manage save files, make sure you have enabled Developer Options on your device and allowed USB or Wi-Fi debugging. Make sure you have run UFO 50 on android at least once before you attempt to upload your saves.
+To backup your save from your android device to your computer, run ```backup_saves_windows.bat``` if you're using Windows, ```backup_saves_linux``` if you're linux, or ```sh backup_saves_macos.sh``` if using Mac.
 This will copy your save files from your device and put them in the save folder.
-To restore your save, place your save files into the save folder and run restore_saves_windows.bat if you're using Windows or restore_saves_unix if you're not.
+To upload your save from your computer to your android device, place your save files into the save folder and run ```upload_saves_windows.bat``` if you're using Windows, ```upload_saves_linux``` if you're linux, or ```sh upload_saves_macos.sh``` if using Mac.
 
 ## Notes
 If you have UFO 50 working on PortMaster, open ufo50.port in an archive manager like 7-zip and use the game.droid and options.ini files in that directory.
@@ -29,4 +29,4 @@ If you don't have any idea what the above means, don't worry about it. It's enti
 
 ## To-Do
 - Integrate PortMaster's changes into build script as an optional selection
-- Implement touch controls (may never happen, need to research injecting objects using UndertaleModTool
+- Implement touch controls (may never happen, need to research injecting objects using UndertaleModTool)
